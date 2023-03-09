@@ -34,7 +34,7 @@ Your code will need to represent several distinct states, including:
   * Room connection (immutable)
   * Room inventory (mutable)
 * The player
-  * Player inventory (mutable)
+  * Player inventory (mutable, array?)
   * Player status (mutable)
 
 Think about appropriate data structures for each of these. Note that you do not need to write code for these until you are actually implementing a story that requires them, but it is good to make a rough plan early on, to anticipate pitfalls and estimate how difficult upcoming stories will be.
