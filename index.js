@@ -158,9 +158,12 @@ async function playAgain() {
   if (replay.toLowerCase() === "yes") {
     console.log("\n*Gulp..Gulp....Gulp...*\n...");
     return start();
-  } else {
+  } else if (replay.toLowerCase() === "no") {
     console.log("\nThats probably the smart thing to do...")
-    process.exit()
+    process.exit();
+  } else {
+    console.log("\nI don't know what you mean...soo...no drinks for you");
+    process.exit();
   }
 }
 // Function for bathroom door code
